@@ -1,0 +1,17 @@
+.button-main {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 12px 25px;
+}
+
+.light {
+  background-color: var(--main-light-color);
+  color: var(--main-dark-bg-color);
+}
+
+.dark {
+  color: var(--main-light-color);
+  background-color: var(--main-dark-bg-color);
+}

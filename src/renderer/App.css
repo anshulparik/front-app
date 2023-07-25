@@ -1,11 +1,8 @@
 :root {
-  --main-dark-bg-color: #05386b;
-  --main-light-bg-color: #5cdb95;
-  --main-light-bg-color-opacity: rgba(92, 219, 149, 0.5);
-  --main-dark-color: #379683;
-  --main-light-color: #8ee4af;
-  --light-color: #edf5e1;
-  --red-color: #ee4b2b;
+  --light-color: #b4d1ee;
+  --dark-color: #000;
+  --transparent-dark-color: rgba(0, 0, 0, 0.5);
+  --red-color: #ff0000;
 }
 
 *,
@@ -24,9 +21,6 @@ html {
 body {
   line-height: 1.5;
   height: 100%;
-
-  background-color: var(--main-light-bg-color);
-  color: var(--main-dark-bg-color);
 
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;

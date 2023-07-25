@@ -2,7 +2,7 @@ import './Loader.css';
 
 const Loader = () => {
   return <div className="loader-main">
-    <div className='loader-sub'></div>
+    <div className='loader-section'></div>
   </div>;
 };
 

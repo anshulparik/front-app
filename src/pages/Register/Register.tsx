@@ -37,7 +37,7 @@ const Register = () => {
 
   return (
     <LandingLayout>
-      <div className="register-main">
+      <div className="main">
         <div className="section">
           <h1 className="sub-heading">Register</h1>
           <form className="form" onSubmit={handleSubmit(onSubmit)}>
@@ -121,7 +121,7 @@ const Register = () => {
                 </span>
               )}
             </div>
-            <Button type="submit" theme="light" text="Register" />
+            <Button type="submit" theme="dark" text="Register" />
           </form>
         </div>
       </div>

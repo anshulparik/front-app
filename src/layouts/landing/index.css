@@ -1,4 +1,6 @@
 .landing-main {
+  background-color: var(--dark-color);
+  
   position: fixed;
   overflow-y: auto;
   top: 0;

@@ -11,22 +11,22 @@ const LandingLayout = ({ children }: any) => {
   return (
     <div className="landing-main">
       <div className="landing-btn">
-        {location.pathname === '/' ? (
+        {location.pathname === '/login' ? (
           <Button
             type="button"
-            theme="dark"
-            text="Login"
+            theme="light"
+            text="Register"
             onClick={() => {
-              navigate('/login');
+              navigate('/');
             }}
           />
         ) : (
           <Button
             type="button"
-            theme="dark"
-            text="Register"
+            theme="light"
+            text="Login"
             onClick={() => {
-              navigate('/');
+              navigate('/login');
             }}
           />
         )}

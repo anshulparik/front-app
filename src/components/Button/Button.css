@@ -4,14 +4,15 @@
   border-radius: 5px;
   font-weight: 700;
   padding: 12px 25px;
+  text-transform: capitalize;
 }
 
 .light {
-  background-color: var(--main-light-color);
-  color: var(--main-dark-bg-color);
+  background-color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .dark {
-  color: var(--main-light-color);
-  background-color: var(--main-dark-bg-color);
+  color: var(--light-color);
+  background-color: var(--dark-color);
 }

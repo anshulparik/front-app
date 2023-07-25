@@ -15,3 +15,6 @@ export interface LoginFormData {
   username: string;
   password: string;
 }
+export interface ForgotPasswordForm {
+  detail: string;
+}

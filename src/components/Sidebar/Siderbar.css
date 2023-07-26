@@ -39,6 +39,7 @@
 .sidebar-menu-list-text {
   font-size: 1.5rem;
   font-weight: 500;
+  color: var(--dark-color);
 }
 
 .sidebar-footer {
@@ -57,4 +58,5 @@
   font-size: 1.5rem;
   font-weight: 500;
   padding: 20px 0;
+  color: var(--dark-color)
 }

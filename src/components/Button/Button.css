@@ -5,14 +5,15 @@
   font-weight: 700;
   padding: 12px 25px;
   text-transform: capitalize;
+  letter-spacing: 1px;
 }
 
 .light {
-  background-color: var(--light-color);
-  color: var(--dark-color);
+  background-color: var(--text-light);
+  color: var(--primary-color);
 }
 
 .dark {
-  color: var(--light-color);
-  background-color: var(--dark-color);
+  color: var(--text-light);
+  background-color: var(--primary-color);
 }

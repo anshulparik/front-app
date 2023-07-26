@@ -1,23 +1,20 @@
 .nav-main {
   min-height: 10%;
   padding: 10px 20px;
-  background-color: var(--light-color);
+  background-color: var(--secondary-color);
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--muted-color);
 }
 
 .nav-logo {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--dark-color);
-  margin-right: 27%;
-}
-
-.nav-icon{
-  color: var(--dark-color);
-  /* font-weight: bold; */
+  color: var(--grey-01);
+  letter-spacing: 1px;
 }
 
 .nav-search{
@@ -29,17 +26,43 @@
 .nav-input { 
   width: 380px;  
   border: none;
-  background-color: var(--light-color);
-  border-bottom: 2px solid var(--dark-color);
+  background-color: transparent;
+  border-bottom: 2px solid var(--primary-color);
   outline: none;
   font-size: 1rem;
   margin-bottom: 3px;
-  color: var(--dark-color);
+  color: var(--text-dark);
   font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .nav-input::placeholder {
   text-transform: capitalize;
-  color: var(--dark-color);
+  color: var(--muted-color);
   font-weight: 500;
+}
+
+.nav-options{
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon{
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.nav-icon.minimize{
+  font-size: 2rem;
+  color: var(--muted-color);
+}
+
+.nav-icon.resize{
+  font-size: 1.5rem;
+  color: var(--muted-color);
+}
+
+.nav-icon.close{
+  font-size: 2rem;
+  color: var(--warning-color);
 }

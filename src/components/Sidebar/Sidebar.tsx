@@ -2,7 +2,7 @@ import './Siderbar.css';
 import { MdFavorite } from 'react-icons/md';
 import { IoSettings } from 'react-icons/io5';
 import { BsFillPersonFill } from 'react-icons/bs';
-import { BiSolidLogOut } from 'react-icons/bi';
+import { BsArrowBarLeft } from 'react-icons/bs';
 
 const Sidebar = () => {
   return (
@@ -23,7 +23,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="sidebar-footer">
-        <BiSolidLogOut className="sidebar-footer-icon" />
+        <BsArrowBarLeft className="sidebar-footer-icon" />
         <p className="sidebar-footer-text">Logout</p>
       </div>
     </div>

@@ -10,7 +10,7 @@
 
 .section {
   width: 100%;
-  background-color: var(--light-color);
+  background-color: var(--secondary-color);
   border-radius: 10px;
   padding: 20px 0;
 }
@@ -19,9 +19,10 @@
   text-align: center;
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--dark-color);
+  color: var(--text-dark);
   margin-bottom: 30px;
   text-transform: capitalize;
+  letter-spacing: 1px;
 }
 
 .form {
@@ -45,24 +46,26 @@
   font-weight: 500;
   width: 65%;
   border: none;
-  background-color: var(--light-color);
-  border-bottom: 2px solid var(--dark-color);
+  background-color: transparent;
+  border-bottom: 2px solid var(--primary-color);
   outline: none;
   font-size: 1rem;
   margin-bottom: 3px;
-  color: var(--dark-color);
+  color: var(--text-dark);
+  letter-spacing: 1px;
 }
 
 .input::placeholder {
   text-transform: capitalize;
-  color: var(--dark-color);
+  color: var(--muted-color);
   font-weight: 500;
 }
 
 .err-span {
+  font-weight: 500;
   max-width: 600px;
   width: 65%;
-  color: var(--light-color);
   font-size: 0.8rem;
-  color: var(--red-color);
+  color: var(--warning-color);
+  letter-spacing: 0.5px;
 }

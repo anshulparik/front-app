@@ -1,8 +1,11 @@
 :root {
-  --light-color: #c4f4fa;
-  --dark-color: #000;
-  --transparent-dark-color: rgba(0, 0, 0, 0.5);
-  --red-color: #ff0000;
+  --text-dark: #000000;
+  --text-light: #ffffff;
+  --secondary-color: #ffffff;
+  --primary-color: #00cfc8;
+  --warning-color: #ff0000;
+  --muted-color: #808080;
+  --grey-01: #585858;
 }
 
 *,
@@ -22,7 +25,8 @@ body {
   line-height: 1.5;
   height: 100%;
 
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

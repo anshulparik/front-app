@@ -1,9 +1,14 @@
-import "./Home.css"
+import './Home.css';
+import Sidebar from 'components/Sidebar/Sidebar';
+import Navbar from 'components/Navbar/Navbar';
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="home-main">
+      {/* <Navbar /> */}
+      {/* <Sidebar /> */}
+    </div>
+  );
+};
 
-export default Home
+export default Home;

@@ -6,6 +6,9 @@
   --warning-color: #ff0000;
   --muted-color: #808080;
   --grey-01: #585858;
+  
+
+  --box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 *,

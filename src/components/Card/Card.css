@@ -1,0 +1,50 @@
+.card-main {
+  /* --gap: 20px;
+  --column: 4; */
+
+  max-width: 350px;
+  max-height: 450px;
+
+  min-width: 300px;
+  max-width: 400px;
+  cursor: pointer;
+  /* width: calc(
+    (100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns))
+  ); */
+  width: calc(25% - 15px);
+  background-color: var(--secondary-color);
+
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
+}
+
+.card-top {
+  position: relative;
+}
+
+.card-title {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+
+  color: var(--text-light);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.card-bottom {
+  padding: 20px 10px;
+}
+
+.card-desc {
+  color: var(--text-dark);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.card-location {
+  color: var(--primary-color);
+  font-weight: 700;
+  cursor: pointer;
+}

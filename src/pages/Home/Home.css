@@ -11,5 +11,5 @@
 .home-row {
   display: flex;
   padding: 30px 20px;
-  gap: 20px;
+  gap: 10%;
 }

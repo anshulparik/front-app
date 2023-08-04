@@ -25,6 +25,7 @@
 }
 .card-top {
   position: relative;
+  cursor: pointer;
 }
 
 .card-img {
@@ -32,6 +33,23 @@
   height: 230px;
   object-fit: cover;
   cursor: pointer;
+  transition: height 0.3s ease-in-out;
+}
+
+.card-img-icons {
+  display: none !important;
+  position: absolute;
+  top: calc(50% - 1rem);
+  width: 100%;
+  font-size: 1.2rem;
+  z-index: 100;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-img-icon {
+  color: var(--text-light);
+  font-size: 2rem;
 }
 
 .card-title {
@@ -44,6 +62,16 @@
   font-weight: 500;
   font-size: 1.2rem;
   z-index: 100;
+}
+
+.card-top:hover .card-img {
+  height: 500px;
+}
+.card-top:hover .card-title {
+  display: none;
+}
+.card-top:hover .card-img-icons {
+  display: flex !important;
 }
 
 .card-bottom {

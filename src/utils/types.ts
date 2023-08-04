@@ -18,3 +18,10 @@ export interface LoginFormData {
 export interface ForgotPasswordForm {
   detail: string;
 }
+export interface CardProps {
+  title: string;
+  img: string;
+  location: string;
+  country: string;
+  description: string;
+}

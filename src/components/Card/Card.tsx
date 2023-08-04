@@ -1,13 +1,6 @@
+import { CardProps } from 'utils/types';
 import './Card.css';
 import { FiEdit } from 'react-icons/fi';
-
-interface CardProps {
-  title: string;
-  img: string;
-  location: string;
-  country: string;
-  description: string;
-}
 
 const Card = ({ title, img, location, country, description }: CardProps) => {
   return (

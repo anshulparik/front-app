@@ -42,8 +42,6 @@ const Home = () => {
             location="thing vellir national park"
             country="Democratic Republic of the Congo"
           />
-        </div>
-        <div className="home-row">
           <Card
             title="Between the valley"
             img={test5}

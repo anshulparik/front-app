@@ -1,12 +1,10 @@
 .card-main {
-  /* --gap: 20px;
-  --column: 4; */
+  /* flex-basis: 33.33%; */
+  /* max-width: 33.33%; */
+  flex-basis: calc(33.33% - 13.33px);
+  max-width: calc(33.33% - 13.33px);
 
-  width: 350px;
   height: 500px;
-
-  min-width: 350px;
-  min-height: 500px;
 
   overflow: hidden;
   border-radius: 8px;
@@ -15,10 +13,6 @@
   -webkit-box-shadow: var(--box-shadow);
   -moz-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
-  /* width: calc(
-    (100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns))
-  ); */
-  /* width: calc(25% - 15px); */
 }
 
 .card-top::before {
@@ -37,6 +31,7 @@
   width: 100%;
   height: 230px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .card-title {
@@ -96,3 +91,32 @@
   text-align: right;
   inline-size: 220px;
 }
+
+@media (max-width: 992px) {
+  .card-main {
+    flex-basis: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+  }
+}
+@media (max-width: 576px) {
+  .card-main {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+/* 
+rest use as per requirement
+
+laptop/minidesktop
+1199/1299/1399 - (max)
+
+large tabs
+991 min to 1199 max
+
+tab
+- 768 min /992
+-767.98 max / 992
+
+mob
+- 576 max */
